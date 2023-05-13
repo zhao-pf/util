@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#567afc</color>
+    <color name="colorPrimaryDark">#567afc</color>
+    <color name="colorAccent">#567afc</color>
+    <color name="hui">#f2f2f2</color>
+    <color name="input_stock">#ffbdc7d8</color>
+    <color name="liji_material_blue_500">#03a9f4</color>
+    <color name="liji_material_blue_700">#0288d1</color>
+    <color name="liji_material_red_500">#e51c23</color>
+    <color name="liji_material_red_700">#d01716</color>
+</resources>

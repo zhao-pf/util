@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/hui</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/hui</item>
+        <item name="android:textViewStyle">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="android:windowSoftInputMode">adjustNothing|stateHidden</item>
+    </style>
+    <style name="Home" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/hui</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/hui</item>
+        <item name="android:textViewStyle">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="android:windowSoftInputMode">adjustNothing|stateHidden</item>
+    </style>
+
+</resources>

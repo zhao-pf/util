@@ -3,7 +3,7 @@
     package="cn.zpf.myutil">
 
     <application>
-        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".base.BaseActivity"></activity>
     </application>
 
 </manifest>

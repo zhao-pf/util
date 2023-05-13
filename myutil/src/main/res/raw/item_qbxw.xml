@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingStart="8dip"
+    android:paddingTop="6dip"
+    android:background="@drawable/box"
+    android:paddingBottom="6dip">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dip"
+        android:scaleType="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:text="asdasd" />
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:minLines="3"
+            android:text="asdasd"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:text="asdasd"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    </LinearLayout>
+</LinearLayout>
